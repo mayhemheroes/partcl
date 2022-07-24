@@ -1,0 +1,5 @@
+project: partcl
+target: tcl
+
+cmds:
+  - cmd: /tcl
