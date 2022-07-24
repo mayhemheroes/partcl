@@ -2,4 +2,4 @@ project: partcl
 target: tcl
 
 cmds:
-  - cmd: /repo/tcl
+  - cmd: /tcl
