@@ -1,0 +1,10 @@
+project: partcl
+target: tcl
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/tcl/testsuite
+
+cmds:
+  - cmd: /mayhem/tcl
+    libfuzzer: true
